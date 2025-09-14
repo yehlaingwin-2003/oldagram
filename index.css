@@ -1,5 +1,129 @@
 html, body {
     margin: 0;
     padding: 0;
+    font-family: "Source Sans 3", sans-serif;
+    background: #EDEDED;
 }
+
+
+/* Styling Common Ones */
+
+.avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    margin-top: 10px;
+}
+
+
+
+
+/* Stlying the header of the application */
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    width: 100%;
+    height: 10%;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.app-logo {
+    width: 40%;
+    height: 100%;
+}
+
+
+/* Styling the main content of the application */
+
+main {
+    width: 100%;
+    height: 90%;
+    margin: 0px;
+}
+
+.container {
+    width: 100%;
+    height: 1500px;
+    margin-top: 10px;
+    margin: 0;
+    background-color: white;
+}
+
+.user-info {
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+.post-picture-container, .post-like-comment, .post-icons {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.user-info .avatar {
+    float: left;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.user-info h1 {
+    padding-top: 30px;
+    margin-bottom: 0;
+}
+
+.user-info h2 {
+    margin-top: 0;
+    font-weight: normal;
+}
+
+
+.post-picture {
+    width: 100%;
+    height: auto;
+    clear: left;
+}
+
+
+/* styling post icons */
+.post-icons{
+    width: 100%;
+    height: 130px;
+    display: flex;
+    gap: 30px;
+    box-sizing: border-box;
+    padding: 20px;
+
+}
+
+.icon {
+    width: 80px;
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.icon:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    
+}
+
+.post-like-comment {
+    box-sizing: border-box;
+    margin: 0;
+    padding-left: 20px;
+    width: 100%;
+    height: auto;
+    font-size: 40px;
+}
+
+p {
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+
 
